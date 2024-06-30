@@ -1,0 +1,2 @@
+Invoking command in '/home/om/gazebo_ur/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/ur_simulation_gazebo -- -j12 -l12
+Invoked command in '/home/om/gazebo_ur/build/ur_simulation_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/ur_simulation_gazebo -- -j12 -l12

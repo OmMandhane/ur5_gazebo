@@ -1,0 +1,400 @@
+[0.000000] (-) TimerEvent: {}
+[0.000433] (trac_ik_lib) JobQueued: {'identifier': 'trac_ik_lib', 'dependencies': OrderedDict()}
+[0.000651] (ur_simulation_gazebo) JobQueued: {'identifier': 'ur_simulation_gazebo', 'dependencies': OrderedDict()}
+[0.000736] (trac_ik_kinematics_plugin) JobQueued: {'identifier': 'trac_ik_kinematics_plugin', 'dependencies': OrderedDict([('trac_ik_lib', '/home/om/gazebo_ur/install/trac_ik_lib')])}
+[0.000765] (trac_ik) JobQueued: {'identifier': 'trac_ik', 'dependencies': OrderedDict([('trac_ik_lib', '/home/om/gazebo_ur/install/trac_ik_lib'), ('trac_ik_kinematics_plugin', '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin')])}
+[0.000811] (trac_ik_lib) JobStarted: {'identifier': 'trac_ik_lib'}
+[0.005143] (ur_simulation_gazebo) JobStarted: {'identifier': 'ur_simulation_gazebo'}
+[0.008890] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'cmake'}
+[0.009379] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'build'}
+[0.010034] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/om/gazebo_ur/build/trac_ik_lib', '--', '-j12', '-l12'], 'cwd': '/home/om/gazebo_ur/build/trac_ik_lib', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/gazebo_ur/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3807'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:24323'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-B550-GAMING-X:@/tmp/.ICE-unix/1241,unix/om-B550-GAMING-X:/tmp/.ICE-unix/1241'), ('INVOCATION_ID', '7ec491b194844519b301a12123c16703'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4804c014-1fb7-4ffd-a546-26ff84e3856e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/gazebo_ur/build/trac_ik_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.013275] (ur_simulation_gazebo) JobProgress: {'identifier': 'ur_simulation_gazebo', 'progress': 'cmake'}
+[0.013688] (ur_simulation_gazebo) JobProgress: {'identifier': 'ur_simulation_gazebo', 'progress': 'build'}
+[0.013970] (ur_simulation_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/om/gazebo_ur/build/ur_simulation_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/om/gazebo_ur/build/ur_simulation_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/gazebo_ur/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3807'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:24323'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-B550-GAMING-X:@/tmp/.ICE-unix/1241,unix/om-B550-GAMING-X:/tmp/.ICE-unix/1241'), ('INVOCATION_ID', '7ec491b194844519b301a12123c16703'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4804c014-1fb7-4ffd-a546-26ff84e3856e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/gazebo_ur/build/ur_simulation_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.040024] (trac_ik_lib) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.053144] (ur_simulation_gazebo) CommandEnded: {'returncode': 0}
+[0.074486] (ur_simulation_gazebo) JobProgress: {'identifier': 'ur_simulation_gazebo', 'progress': 'install'}
+[0.083190] (ur_simulation_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/om/gazebo_ur/build/ur_simulation_gazebo'], 'cwd': '/home/om/gazebo_ur/build/ur_simulation_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/gazebo_ur/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3807'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:24323'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-B550-GAMING-X:@/tmp/.ICE-unix/1241,unix/om-B550-GAMING-X:/tmp/.ICE-unix/1241'), ('INVOCATION_ID', '7ec491b194844519b301a12123c16703'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4804c014-1fb7-4ffd-a546-26ff84e3856e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/gazebo_ur/build/ur_simulation_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.091726] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.092138] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.092471] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml\n'}
+[0.092703] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py\n'}
+[0.092830] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py\n'}
+[0.093016] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gazebo\n'}
+[0.093204] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gazebo\n'}
+[0.093361] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.sh\n'}
+[0.093515] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.093681] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.sh\n'}
+[0.093837] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.dsv\n'}
+[0.093987] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.bash\n'}
+[0.094137] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.sh\n'}
+[0.094320] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.zsh\n'}
+[0.094484] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.dsv\n'}
+[0.094581] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv\n'}
+[0.099597] (-) TimerEvent: {}
+[0.104277] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ament_index/resource_index/packages/ur_simulation_gazebo\n'}
+[0.104463] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig.cmake\n'}
+[0.104547] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig-version.cmake\n'}
+[0.104675] (ur_simulation_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.xml\n'}
+[0.107147] (ur_simulation_gazebo) CommandEnded: {'returncode': 0}
+[0.141280] (ur_simulation_gazebo) JobEnded: {'identifier': 'ur_simulation_gazebo', 'rc': 0}
+[0.146166] (trac_ik_lib) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.173280] (trac_ik_lib) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.175679] (trac_ik_lib) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.181123] (trac_ik_lib) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.191268] (trac_ik_lib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199670] (-) TimerEvent: {}
+[0.205528] (trac_ik_lib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.258280] (trac_ik_lib) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.259441] (trac_ik_lib) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299746] (-) TimerEvent: {}
+[0.382341] (trac_ik_lib) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399816] (-) TimerEvent: {}
+[0.499997] (-) TimerEvent: {}
+[0.527056] (trac_ik_lib) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.566461] (trac_ik_lib) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[0.567658] (trac_ik_lib) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.568751] (trac_ik_lib) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.570075] (trac_ik_lib) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.597530] (trac_ik_lib) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.598337] (trac_ik_lib) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.600063] (-) TimerEvent: {}
+[0.614725] (trac_ik_lib) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.650808] (trac_ik_lib) StdoutLine: {'line': b"-- Checking for module 'nlopt'\n"}
+[0.665065] (trac_ik_lib) StdoutLine: {'line': b'--   Found nlopt, version 2.7.1\n'}
+[0.700152] (-) TimerEvent: {}
+[0.762154] (trac_ik_lib) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.773250] (trac_ik_lib) StdoutLine: {'line': b'-- Generating done\n'}
+[0.774915] (trac_ik_lib) StdoutLine: {'line': b'-- Build files have been written to: /home/om/gazebo_ur/build/trac_ik_lib\n'}
+[0.800284] (-) TimerEvent: {}
+[0.814117] (trac_ik_lib) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik.dir/src/trac_ik.cpp.o\x1b[0m\n'}
+[0.815027] (trac_ik_lib) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik.dir/src/nlopt_ik.cpp.o\x1b[0m\n'}
+[0.815566] (trac_ik_lib) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik.dir/src/kdl_tl.cpp.o\x1b[0m\n'}
+[0.900395] (-) TimerEvent: {}
+[1.000761] (-) TimerEvent: {}
+[1.101173] (-) TimerEvent: {}
+[1.201573] (-) TimerEvent: {}
+[1.301990] (-) TimerEvent: {}
+[1.402411] (-) TimerEvent: {}
+[1.502810] (-) TimerEvent: {}
+[1.603209] (-) TimerEvent: {}
+[1.703617] (-) TimerEvent: {}
+[1.804032] (-) TimerEvent: {}
+[1.904437] (-) TimerEvent: {}
+[2.004851] (-) TimerEvent: {}
+[2.105265] (-) TimerEvent: {}
+[2.205679] (-) TimerEvent: {}
+[2.306101] (-) TimerEvent: {}
+[2.406544] (-) TimerEvent: {}
+[2.506948] (-) TimerEvent: {}
+[2.607358] (-) TimerEvent: {}
+[2.707769] (-) TimerEvent: {}
+[2.808170] (-) TimerEvent: {}
+[2.908573] (-) TimerEvent: {}
+[3.009008] (-) TimerEvent: {}
+[3.109428] (-) TimerEvent: {}
+[3.209828] (-) TimerEvent: {}
+[3.310253] (-) TimerEvent: {}
+[3.410650] (-) TimerEvent: {}
+[3.511033] (-) TimerEvent: {}
+[3.611390] (-) TimerEvent: {}
+[3.711745] (-) TimerEvent: {}
+[3.812099] (-) TimerEvent: {}
+[3.912379] (-) TimerEvent: {}
+[4.012630] (-) TimerEvent: {}
+[4.113003] (-) TimerEvent: {}
+[4.213374] (-) TimerEvent: {}
+[4.313760] (-) TimerEvent: {}
+[4.414137] (-) TimerEvent: {}
+[4.514548] (-) TimerEvent: {}
+[4.614920] (-) TimerEvent: {}
+[4.715291] (-) TimerEvent: {}
+[4.815674] (-) TimerEvent: {}
+[4.916063] (-) TimerEvent: {}
+[5.016438] (-) TimerEvent: {}
+[5.116816] (-) TimerEvent: {}
+[5.217190] (-) TimerEvent: {}
+[5.317607] (-) TimerEvent: {}
+[5.417981] (-) TimerEvent: {}
+[5.518375] (-) TimerEvent: {}
+[5.618754] (-) TimerEvent: {}
+[5.719117] (-) TimerEvent: {}
+[5.819480] (-) TimerEvent: {}
+[5.919840] (-) TimerEvent: {}
+[6.020213] (-) TimerEvent: {}
+[6.120572] (-) TimerEvent: {}
+[6.220944] (-) TimerEvent: {}
+[6.321294] (-) TimerEvent: {}
+[6.421664] (-) TimerEvent: {}
+[6.522024] (-) TimerEvent: {}
+[6.622392] (-) TimerEvent: {}
+[6.722745] (-) TimerEvent: {}
+[6.823082] (-) TimerEvent: {}
+[6.923422] (-) TimerEvent: {}
+[7.023771] (-) TimerEvent: {}
+[7.124115] (-) TimerEvent: {}
+[7.224468] (-) TimerEvent: {}
+[7.324822] (-) TimerEvent: {}
+[7.425173] (-) TimerEvent: {}
+[7.525523] (-) TimerEvent: {}
+[7.625846] (-) TimerEvent: {}
+[7.726107] (-) TimerEvent: {}
+[7.826424] (-) TimerEvent: {}
+[7.926822] (-) TimerEvent: {}
+[8.000038] (trac_ik_lib) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtrac_ik.so\x1b[0m\n'}
+[8.026876] (-) TimerEvent: {}
+[8.127069] (-) TimerEvent: {}
+[8.227273] (-) TimerEvent: {}
+[8.265968] (trac_ik_lib) StdoutLine: {'line': b'[100%] Built target trac_ik\n'}
+[8.277900] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[8.307370] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'install'}
+[8.307952] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/om/gazebo_ur/build/trac_ik_lib'], 'cwd': '/home/om/gazebo_ur/build/trac_ik_lib', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/gazebo_ur/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3807'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:24323'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-B550-GAMING-X:@/tmp/.ICE-unix/1241,unix/om-B550-GAMING-X:/tmp/.ICE-unix/1241'), ('INVOCATION_ID', '7ec491b194844519b301a12123c16703'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4804c014-1fb7-4ffd-a546-26ff84e3856e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/gazebo_ur/build/trac_ik_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.315533] (trac_ik_lib) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.315695] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/include\n'}
+[8.315754] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/include/trac_ik\n'}
+[8.315808] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/include/trac_ik/math3d.h\n'}
+[8.315912] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/include/trac_ik/nlopt_ik.hpp\n'}
+[8.316063] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/include/trac_ik/trac_ik.hpp\n'}
+[8.316219] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/include/trac_ik/kdl_tl.hpp\n'}
+[8.316384] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/include/trac_ik/dual_quaternion.h\n'}
+[8.316576] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/lib/libtrac_ik.so\n'}
+[8.323940] (trac_ik_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/om/gazebo_ur/install/trac_ik_lib/lib/libtrac_ik.so" to ""\n'}
+[8.324053] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.sh\n'}
+[8.324151] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.dsv\n'}
+[8.324245] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/ament_index/resource_index/package_run_dependencies/trac_ik_lib\n'}
+[8.324370] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/share/ament_index/resource_index/parent_prefix_path/trac_ik_lib\n'}
+[8.324463] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.sh\n'}
+[8.324557] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.dsv\n'}
+[8.324656] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/environment/path.sh\n'}
+[8.324753] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/environment/path.dsv\n'}
+[8.324860] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/local_setup.bash\n'}
+[8.324951] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/local_setup.sh\n'}
+[8.325045] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/local_setup.zsh\n'}
+[8.325138] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/local_setup.dsv\n'}
+[8.325231] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.dsv\n'}
+[8.325335] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/share/ament_index/resource_index/packages/trac_ik_lib\n'}
+[8.325428] (trac_ik_lib) StdoutLine: {'line': b'-- Old export file "/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport.cmake" will be replaced.  Removing files [/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport-noconfig.cmake].\n'}
+[8.325529] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport.cmake\n'}
+[8.325676] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport-noconfig.cmake\n'}
+[8.325835] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.325997] (trac_ik_lib) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.326089] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.326250] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.326386] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig.cmake\n'}
+[8.326547] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig-version.cmake\n'}
+[8.326721] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.xml\n'}
+[8.327317] (-) TimerEvent: {}
+[8.328855] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[8.374858] (trac_ik_lib) JobEnded: {'identifier': 'trac_ik_lib', 'rc': 0}
+[8.375550] (trac_ik_kinematics_plugin) JobStarted: {'identifier': 'trac_ik_kinematics_plugin'}
+[8.382041] (trac_ik_kinematics_plugin) JobProgress: {'identifier': 'trac_ik_kinematics_plugin', 'progress': 'cmake'}
+[8.382563] (trac_ik_kinematics_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/om/gazebo_ur/src/trac_ik/trac_ik_kinematics_plugin', '-DCMAKE_INSTALL_PREFIX=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin'], 'cwd': '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/gazebo_ur/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/gazebo_ur/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3807'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:24323'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-B550-GAMING-X:@/tmp/.ICE-unix/1241,unix/om-B550-GAMING-X:/tmp/.ICE-unix/1241'), ('INVOCATION_ID', '7ec491b194844519b301a12123c16703'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4804c014-1fb7-4ffd-a546-26ff84e3856e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[8.427420] (-) TimerEvent: {}
+[8.434437] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.485942] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[8.493612] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.527537] (-) TimerEvent: {}
+[8.561846] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.569050] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.569304] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.569679] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.572660] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.627646] (-) TimerEvent: {}
+[8.652937] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.659775] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.660005] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.660420] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.663013] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.727754] (-) TimerEvent: {}
+[8.792443] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[8.827869] (-) TimerEvent: {}
+[8.876711] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.923988] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.927932] (-) TimerEvent: {}
+[8.929464] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.937894] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.951149] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.970213] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.028022] (-) TimerEvent: {}
+[9.037355] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.040108] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.128131] (-) TimerEvent: {}
+[9.151997] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.180471] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.228191] (-) TimerEvent: {}
+[9.230404] (trac_ik_kinematics_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.240473] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.314043] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.314449] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.328261] (-) TimerEvent: {}
+[9.388799] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.390578] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.428329] (-) TimerEvent: {}
+[9.528530] (-) TimerEvent: {}
+[9.564763] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[9.599592] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[9.612784] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[9.628600] (-) TimerEvent: {}
+[9.637285] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[9.682243] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[9.728703] (-) TimerEvent: {}
+[9.828941] (-) TimerEvent: {}
+[9.838972] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[9.929014] (-) TimerEvent: {}
+[10.029234] (-) TimerEvent: {}
+[10.129442] (-) TimerEvent: {}
+[10.133510] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[10.133668] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[10.229525] (-) TimerEvent: {}
+[10.329723] (-) TimerEvent: {}
+[10.429908] (-) TimerEvent: {}
+[10.530090] (-) TimerEvent: {}
+[10.630281] (-) TimerEvent: {}
+[10.730457] (-) TimerEvent: {}
+[10.830652] (-) TimerEvent: {}
+[10.930858] (-) TimerEvent: {}
+[11.031050] (-) TimerEvent: {}
+[11.131249] (-) TimerEvent: {}
+[11.185739] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found tf2_kdl: 0.25.7 (/opt/ros/humble/share/tf2_kdl/cmake)\n'}
+[11.201661] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Found trac_ik_lib: 2.0.1 (/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/cmake)\n'}
+[11.231318] (-) TimerEvent: {}
+[11.282438] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.307458] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[11.309953] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/om/gazebo_ur/build/trac_ik_kinematics_plugin\n'}
+[11.321259] (trac_ik_kinematics_plugin) CommandEnded: {'returncode': 0}
+[11.321908] (trac_ik_kinematics_plugin) JobProgress: {'identifier': 'trac_ik_kinematics_plugin', 'progress': 'build'}
+[11.322336] (trac_ik_kinematics_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin', '--', '-j12', '-l12'], 'cwd': '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/gazebo_ur/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/gazebo_ur/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3807'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:24323'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-B550-GAMING-X:@/tmp/.ICE-unix/1241,unix/om-B550-GAMING-X:/tmp/.ICE-unix/1241'), ('INVOCATION_ID', '7ec491b194844519b301a12123c16703'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4804c014-1fb7-4ffd-a546-26ff84e3856e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[11.331384] (-) TimerEvent: {}
+[11.381192] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/om/gazebo_ur/build/trac_ik_kinematics_plugin/trac_ik_kinematics_parameters/include//trac_ik_kinematics_parameters.hpp /home/om/gazebo_ur/src/trac_ik/trac_ik_kinematics_plugin/src/trac_ik_kinematics_parameters.yaml `\x1b[0m\n'}
+[11.431461] (-) TimerEvent: {}
+[11.531452] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'[ 33%] Built target trac_ik_kinematics_parameters\n'}
+[11.531657] (-) TimerEvent: {}
+[11.554926] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik_kinematics_plugin.dir/src/trac_ik_kinematics_plugin.cpp.o\x1b[0m\n'}
+[11.631793] (-) TimerEvent: {}
+[11.732105] (-) TimerEvent: {}
+[11.832307] (-) TimerEvent: {}
+[11.932530] (-) TimerEvent: {}
+[12.032799] (-) TimerEvent: {}
+[12.133189] (-) TimerEvent: {}
+[12.233566] (-) TimerEvent: {}
+[12.333947] (-) TimerEvent: {}
+[12.434375] (-) TimerEvent: {}
+[12.534770] (-) TimerEvent: {}
+[12.635179] (-) TimerEvent: {}
+[12.735949] (-) TimerEvent: {}
+[12.836628] (-) TimerEvent: {}
+[12.937260] (-) TimerEvent: {}
+[13.037865] (-) TimerEvent: {}
+[13.138501] (-) TimerEvent: {}
+[13.238879] (-) TimerEvent: {}
+[13.339200] (-) TimerEvent: {}
+[13.439525] (-) TimerEvent: {}
+[13.539902] (-) TimerEvent: {}
+[13.640562] (-) TimerEvent: {}
+[13.741181] (-) TimerEvent: {}
+[13.841793] (-) TimerEvent: {}
+[13.942504] (-) TimerEvent: {}
+[14.042875] (-) TimerEvent: {}
+[14.143239] (-) TimerEvent: {}
+[14.243622] (-) TimerEvent: {}
+[14.344289] (-) TimerEvent: {}
+[14.444964] (-) TimerEvent: {}
+[14.545602] (-) TimerEvent: {}
+[14.645867] (-) TimerEvent: {}
+[14.746216] (-) TimerEvent: {}
+[14.846457] (-) TimerEvent: {}
+[14.946832] (-) TimerEvent: {}
+[15.047196] (-) TimerEvent: {}
+[15.147562] (-) TimerEvent: {}
+[15.247917] (-) TimerEvent: {}
+[15.348283] (-) TimerEvent: {}
+[15.448648] (-) TimerEvent: {}
+[15.549025] (-) TimerEvent: {}
+[15.649395] (-) TimerEvent: {}
+[15.749769] (-) TimerEvent: {}
+[15.850137] (-) TimerEvent: {}
+[15.950527] (-) TimerEvent: {}
+[16.050913] (-) TimerEvent: {}
+[16.151319] (-) TimerEvent: {}
+[16.251730] (-) TimerEvent: {}
+[16.352130] (-) TimerEvent: {}
+[16.452498] (-) TimerEvent: {}
+[16.552877] (-) TimerEvent: {}
+[16.653225] (-) TimerEvent: {}
+[16.753581] (-) TimerEvent: {}
+[16.789291] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtrac_ik_kinematics_plugin.so\x1b[0m\n'}
+[16.853666] (-) TimerEvent: {}
+[16.953922] (-) TimerEvent: {}
+[17.049674] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'[100%] Built target trac_ik_kinematics_plugin\n'}
+[17.053995] (-) TimerEvent: {}
+[17.064642] (trac_ik_kinematics_plugin) CommandEnded: {'returncode': 0}
+[17.091984] (trac_ik_kinematics_plugin) JobProgress: {'identifier': 'trac_ik_kinematics_plugin', 'progress': 'install'}
+[17.092239] (trac_ik_kinematics_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin'], 'cwd': '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/gazebo_ur/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/gazebo_ur/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3807'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:24323'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-B550-GAMING-X:@/tmp/.ICE-unix/1241,unix/om-B550-GAMING-X:/tmp/.ICE-unix/1241'), ('INVOCATION_ID', '7ec491b194844519b301a12123c16703'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4804c014-1fb7-4ffd-a546-26ff84e3856e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[17.100158] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.100319] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/include/trac_ik_kinematics_parameters\n'}
+[17.100456] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/include/trac_ik_kinematics_parameters/trac_ik_kinematics_parameters.hpp\n'}
+[17.100594] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/include\n'}
+[17.100737] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/include/trac_ik\n'}
+[17.100826] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/include/trac_ik/trac_ik_kinematics_plugin.hpp\n'}
+[17.100952] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib/libtrac_ik_kinematics_plugin.so\n'}
+[17.102385] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib/libtrac_ik_kinematics_plugin.so" to ""\n'}
+[17.102541] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/trac_ik_kinematics_description.xml\n'}
+[17.102697] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/library_path.sh\n'}
+[17.102841] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/library_path.dsv\n'}
+[17.103081] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/ament_index/resource_index/package_run_dependencies/trac_ik_kinematics_plugin\n'}
+[17.103280] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/ament_index/resource_index/parent_prefix_path/trac_ik_kinematics_plugin\n'}
+[17.103433] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/ament_prefix_path.sh\n'}
+[17.103578] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/ament_prefix_path.dsv\n'}
+[17.103725] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/path.sh\n'}
+[17.103864] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/environment/path.dsv\n'}
+[17.104002] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/local_setup.bash\n'}
+[17.104143] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/local_setup.sh\n'}
+[17.104291] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/local_setup.zsh\n'}
+[17.104428] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/local_setup.dsv\n'}
+[17.104574] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.dsv\n'}
+[17.104760] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/ament_index/resource_index/packages/trac_ik_kinematics_plugin\n'}
+[17.104947] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/ament_index/resource_index/moveit_core__pluginlib__plugin/trac_ik_kinematics_plugin\n'}
+[17.105148] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/export_trac_ik_kinematics_pluginExport.cmake\n'}
+[17.105304] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/export_trac_ik_kinematics_pluginExport-noconfig.cmake\n'}
+[17.105450] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.105600] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.105741] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.105892] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.106057] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/trac_ik_kinematics_pluginConfig.cmake\n'}
+[17.106203] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/cmake/trac_ik_kinematics_pluginConfig-version.cmake\n'}
+[17.106341] (trac_ik_kinematics_plugin) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.xml\n'}
+[17.108066] (trac_ik_kinematics_plugin) CommandEnded: {'returncode': 0}
+[17.143130] (trac_ik_kinematics_plugin) JobEnded: {'identifier': 'trac_ik_kinematics_plugin', 'rc': 0}
+[17.144051] (trac_ik) JobStarted: {'identifier': 'trac_ik'}
+[17.152422] (trac_ik) JobProgress: {'identifier': 'trac_ik', 'progress': 'cmake'}
+[17.152806] (trac_ik) JobProgress: {'identifier': 'trac_ik', 'progress': 'build'}
+[17.152973] (trac_ik) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/om/gazebo_ur/build/trac_ik', '--', '-j12', '-l12'], 'cwd': '/home/om/gazebo_ur/build/trac_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib:/home/om/gazebo_ur/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/gazebo_ur/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3807'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:24323'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-B550-GAMING-X:@/tmp/.ICE-unix/1241,unix/om-B550-GAMING-X:/tmp/.ICE-unix/1241'), ('INVOCATION_ID', '7ec491b194844519b301a12123c16703'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4804c014-1fb7-4ffd-a546-26ff84e3856e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/gazebo_ur/build/trac_ik'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[17.154145] (-) TimerEvent: {}
+[17.176298] (trac_ik) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[17.254234] (-) TimerEvent: {}
+[17.330706] (trac_ik) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.333577] (trac_ik) StdoutLine: {'line': b'-- Generating done\n'}
+[17.334622] (trac_ik) StdoutLine: {'line': b'-- Build files have been written to: /home/om/gazebo_ur/build/trac_ik\n'}
+[17.354298] (-) TimerEvent: {}
+[17.355877] (trac_ik) CommandEnded: {'returncode': 0}
+[17.378872] (trac_ik) JobProgress: {'identifier': 'trac_ik', 'progress': 'install'}
+[17.379016] (trac_ik) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/om/gazebo_ur/build/trac_ik'], 'cwd': '/home/om/gazebo_ur/build/trac_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib:/home/om/gazebo_ur/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/gazebo_ur/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3807'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:24323'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-B550-GAMING-X:@/tmp/.ICE-unix/1241,unix/om-B550-GAMING-X:/tmp/.ICE-unix/1241'), ('INVOCATION_ID', '7ec491b194844519b301a12123c16703'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4804c014-1fb7-4ffd-a546-26ff84e3856e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/gazebo_ur/build/trac_ik'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[17.386991] (trac_ik) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.387087] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik/share/ament_index/resource_index/package_run_dependencies/trac_ik\n'}
+[17.387413] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik/share/ament_index/resource_index/parent_prefix_path/trac_ik\n'}
+[17.387608] (trac_ik) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/environment/ament_prefix_path.sh\n'}
+[17.387683] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/environment/ament_prefix_path.dsv\n'}
+[17.387836] (trac_ik) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/environment/path.sh\n'}
+[17.387900] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/environment/path.dsv\n'}
+[17.388056] (trac_ik) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/local_setup.bash\n'}
+[17.388120] (trac_ik) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/local_setup.sh\n'}
+[17.388197] (trac_ik) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/local_setup.zsh\n'}
+[17.388253] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/local_setup.dsv\n'}
+[17.388388] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.dsv\n'}
+[17.388575] (trac_ik) StdoutLine: {'line': b'-- Up-to-date: /home/om/gazebo_ur/install/trac_ik/share/ament_index/resource_index/packages/trac_ik\n'}
+[17.388646] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/cmake/trac_ikConfig.cmake\n'}
+[17.388786] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/cmake/trac_ikConfig-version.cmake\n'}
+[17.388963] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.xml\n'}
+[17.390836] (trac_ik) CommandEnded: {'returncode': 0}
+[17.419986] (trac_ik) JobEnded: {'identifier': 'trac_ik', 'rc': 0}
+[17.420525] (-) EventReactorShutdown: {}

@@ -1,0 +1,20 @@
+[0.011s] Invoking command in '/home/om/gazebo_ur/build/trac_ik_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/trac_ik_lib -- -j12 -l12
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/trac_ik.cpp.o[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/nlopt_ik.cpp.o[0m
+[0.133s] In file included from [01m[K/home/om/gazebo_ur/src/trac_ik/trac_ik_lib/src/nlopt_ik.cpp:30[m[K:
+[0.133s] [01m[K/home/om/gazebo_ur/src/trac_ik/trac_ik_lib/include/trac_ik/nlopt_ik.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Knlopt.hpp: No such file or directory
+[0.133s]    36 | #include [01;31m[K"nlopt.hpp"[m[K
+[0.133s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.133s] compilation terminated.
+[0.135s] gmake[2]: *** [CMakeFiles/trac_ik_lib.dir/build.make:90: CMakeFiles/trac_ik_lib.dir/src/nlopt_ik.cpp.o] Error 1
+[0.135s] gmake[2]: *** Waiting for unfinished jobs....
+[0.295s] In file included from [01m[K/home/om/gazebo_ur/src/trac_ik/trac_ik_lib/include/trac_ik/trac_ik.hpp:42[m[K,
+[0.295s]                  from [01m[K/home/om/gazebo_ur/src/trac_ik/trac_ik_lib/src/trac_ik.cpp:30[m[K:
+[0.295s] [01m[K/home/om/gazebo_ur/src/trac_ik/trac_ik_lib/include/trac_ik/nlopt_ik.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Knlopt.hpp: No such file or directory
+[0.295s]    36 | #include [01;31m[K"nlopt.hpp"[m[K
+[0.296s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.296s] compilation terminated.
+[0.300s] gmake[2]: *** [CMakeFiles/trac_ik_lib.dir/build.make:104: CMakeFiles/trac_ik_lib.dir/src/trac_ik.cpp.o] Error 1
+[0.301s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/trac_ik_lib.dir/all] Error 2
+[0.301s] gmake: *** [Makefile:146: all] Error 2
+[0.304s] Invoked command in '/home/om/gazebo_ur/build/trac_ik_lib' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/trac_ik_lib -- -j12 -l12
