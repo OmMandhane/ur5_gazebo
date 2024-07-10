@@ -1,0 +1,6 @@
+/home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+/home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+/home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+/home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+/home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+/home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py

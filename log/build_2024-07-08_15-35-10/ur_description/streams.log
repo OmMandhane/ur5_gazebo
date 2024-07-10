@@ -1,0 +1,7 @@
+[0.013s] Invoking command in '/home/om/gazebo_ur/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/gazebo_ur/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/om/gazebo_ur/install/ur_description
+[0.019s] [31mCMake Error at CMakeLists.txt:1:
+[0.019s]   Parse error.  Expected "(", got unquoted argument with text "<<".
+[0.019s] 
+[0.019s] [0m
+[0.019s] -- Configuring incomplete, errors occurred!
+[0.021s] Invoked command in '/home/om/gazebo_ur/build/ur_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/gazebo_ur/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/om/gazebo_ur/install/ur_description

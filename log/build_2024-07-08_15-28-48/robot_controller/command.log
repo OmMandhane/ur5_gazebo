@@ -1,0 +1,1 @@
+Invoking command in '/home/om/gazebo_ur/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/robot_controller -- -j12 -l12

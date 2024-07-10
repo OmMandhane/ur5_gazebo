@@ -1,0 +1,4 @@
+[0.012s] Invoking command in '/home/om/gazebo_ur/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/robot_controller -- -j12 -l12
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot.dir/src/move_robot.cpp.o[0m
+[6.100s] [100%] [32m[1mLinking CXX executable move_robot[0m
+[6.377s] [100%] Built target move_robot

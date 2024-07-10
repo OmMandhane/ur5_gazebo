@@ -1,0 +1,18 @@
+[0.012s] Invoking command in '/home/om/gazebo_ur/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/gazebo_ur/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/om/gazebo_ur/install/ur_description
+[0.019s] [31mCMake Error at CMakeLists.txt:6:
+[0.019s]   Parse error.  Expected "(", got quoted argument with text
+[0.019s]   "cmake_minimum_required(VERSION 3.5)
+[0.019s] 
+[0.019s]   project(ur_description)
+[0.019s] 
+[0.019s]   
+[0.019s] 
+[0.019s]   find_package(ament_cmake REQUIRED)
+[0.019s] 
+[0.020s]   
+[0.020s] 
+[0.020s]   ament_package()".
+[0.020s] 
+[0.020s] [0m
+[0.020s] -- Configuring incomplete, errors occurred!
+[0.021s] Invoked command in '/home/om/gazebo_ur/build/ur_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/gazebo_ur/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/om/gazebo_ur/install/ur_description

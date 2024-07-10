@@ -1,0 +1,20 @@
+[0.541s] Invoking command in '/home/om/gazebo_ur/src/robot_controller_py': PYTHONPATH=/home/om/gazebo_ur/build/robot_controller_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/gazebo_ur/install/robot_controller_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller_py build --build-base /home/om/gazebo_ur/build/robot_controller_py/build install --record /home/om/gazebo_ur/build/robot_controller_py/install.log --single-version-externally-managed install_data
+[0.743s] running egg_info
+[0.743s] writing ../../build/robot_controller_py/robot_controller_py.egg-info/PKG-INFO
+[0.743s] writing dependency_links to ../../build/robot_controller_py/robot_controller_py.egg-info/dependency_links.txt
+[0.744s] writing entry points to ../../build/robot_controller_py/robot_controller_py.egg-info/entry_points.txt
+[0.744s] writing requirements to ../../build/robot_controller_py/robot_controller_py.egg-info/requires.txt
+[0.744s] writing top-level names to ../../build/robot_controller_py/robot_controller_py.egg-info/top_level.txt
+[0.746s] reading manifest file '../../build/robot_controller_py/robot_controller_py.egg-info/SOURCES.txt'
+[0.746s] writing manifest file '../../build/robot_controller_py/robot_controller_py.egg-info/SOURCES.txt'
+[0.747s] running build
+[0.747s] running build_py
+[0.747s] running install
+[0.747s] running install_lib
+[0.748s] running install_data
+[0.748s] running install_egg_info
+[0.750s] removing '/home/om/gazebo_ur/install/robot_controller_py/lib/python3.10/site-packages/robot_controller_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.750s] Copying ../../build/robot_controller_py/robot_controller_py.egg-info to /home/om/gazebo_ur/install/robot_controller_py/lib/python3.10/site-packages/robot_controller_py-0.0.0-py3.10.egg-info
+[0.751s] running install_scripts
+[0.768s] writing list of installed files to '/home/om/gazebo_ur/build/robot_controller_py/install.log'
+[0.786s] Invoked command in '/home/om/gazebo_ur/src/robot_controller_py' returned '0': PYTHONPATH=/home/om/gazebo_ur/build/robot_controller_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/gazebo_ur/install/robot_controller_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller_py build --build-base /home/om/gazebo_ur/build/robot_controller_py/build install --record /home/om/gazebo_ur/build/robot_controller_py/install.log --single-version-externally-managed install_data

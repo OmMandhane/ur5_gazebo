@@ -1,0 +1,2 @@
+[0.014s] Invoking command in '/home/om/gazebo_ur/build/trac_ik_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/trac_ik_lib -- -j12 -l12
+[0.080s] [100%] Built target trac_ik

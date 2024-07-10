@@ -1,0 +1,35 @@
+[0.013s] Invoking command in '/home/om/gazebo_ur/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/robot_controller -- -j12 -l12
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target move_robot[0m
+[0.101s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot.dir/src/move_robot.cpp.o[0m
+[4.040s] [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:[m[K In constructor ‘[01m[KMoveRobot::MoveRobot()[m[K’:
+[4.040s] [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:28:100:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.041s]    28 | plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[4.041s]       |                                                               [01;35m[K^~~~~~~[m[K
+[4.041s] 
+[4.041s] In file included from [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:2[m[K:
+[4.041s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.041s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[4.041s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.242s] [100%] [32m[1mLinking CXX executable move_robot[0m
+[6.515s] [100%] Built target move_robot
+[6.528s] Invoked command in '/home/om/gazebo_ur/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/robot_controller -- -j12 -l12
+[6.554s] Invoking command in '/home/om/gazebo_ur/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/robot_controller
+[6.562s] -- Install configuration: ""
+[6.562s] -- Installing: /home/om/gazebo_ur/install/robot_controller/lib/robot_controller/move_robot
+[6.563s] -- Set runtime path of "/home/om/gazebo_ur/install/robot_controller/lib/robot_controller/move_robot" to ""
+[6.564s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[6.564s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[6.564s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[6.564s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[6.564s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/environment/path.sh
+[6.564s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/environment/path.dsv
+[6.564s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/local_setup.bash
+[6.564s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/local_setup.sh
+[6.564s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/local_setup.zsh
+[6.564s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/local_setup.dsv
+[6.565s] -- Installing: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.dsv
+[6.565s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[6.565s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[6.565s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[6.565s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.xml
+[6.567s] Invoked command in '/home/om/gazebo_ur/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/robot_controller

@@ -1,1 +1,2 @@
-/home/om/gazebo_ur/build/ur_simulation_gazebo/ament_cmake_environment_hooks/local_setup.dsv
+source;share/ur_simulation_gazebo/environment/ament_prefix_path.sh
+source;share/ur_simulation_gazebo/environment/path.sh

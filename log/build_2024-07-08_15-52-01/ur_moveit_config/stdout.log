@@ -1,0 +1,12 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/om/gazebo_ur/build/ur_moveit_config
+-- Install configuration: ""
+-- Installing: /home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config
+-- Installing: /home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+-- Installing: /home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+-- Installing: /home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+-- Installing: /home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+-- Installing: /home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+-- Installing: /home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/launch
+-- Installing: /home/om/gazebo_ur/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py

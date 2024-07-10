@@ -1,0 +1,442 @@
+[0.082s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x718179d1c940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x718179eaa290>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x718179eaa290>>)
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.219s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/om/gazebo_ur'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controller) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_controller' with type 'ros.ament_cmake' and name 'robot_controller'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik' with type 'ros.ament_cmake' and name 'trac_ik'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik_kinematics_plugin' with type 'ros.ament_cmake' and name 'trac_ik_kinematics_plugin'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik_lib' with type 'ros.ament_cmake' and name 'trac_ik_lib'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) ignored
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 366 installed packages in /opt/ros/humble
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/gazebo_ur/build/robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/gazebo_ur/install/robot_controller', 'merge_install': False, 'path': '/home/om/gazebo_ur/src/robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/gazebo_ur/build/trac_ik_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/gazebo_ur/install/trac_ik_lib', 'merge_install': False, 'path': '/home/om/gazebo_ur/src/trac_ik/trac_ik_lib', 'symlink_install': False, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'ur_simulation_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/gazebo_ur/build/ur_simulation_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/gazebo_ur/install/ur_simulation_gazebo', 'merge_install': False, 'path': '/home/om/gazebo_ur/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_kinematics_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik_kinematics_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin', 'merge_install': False, 'path': '/home/om/gazebo_ur/src/trac_ik/trac_ik_kinematics_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/gazebo_ur/build/trac_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/gazebo_ur/install/trac_ik', 'merge_install': False, 'path': '/home/om/gazebo_ur/src/trac_ik/trac_ik', 'symlink_install': False, 'test_result_base': None}
+[0.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/om/gazebo_ur/src/trac_ik/trac_ik_lib' with build type 'ament_cmake'
+[0.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/om/gazebo_ur/src/trac_ik/trac_ik_lib'
+[0.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/om/gazebo_ur/src/robot_controller' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/om/gazebo_ur/src/robot_controller'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/om/gazebo_ur/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with build type 'ament_cmake'
+[0.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/om/gazebo_ur/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/gazebo_ur/build/trac_ik_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/trac_ik_lib -- -j12 -l12
+[0.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/gazebo_ur/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/robot_controller -- -j12 -l12
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/gazebo_ur/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/ur_simulation_gazebo -- -j12 -l12
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/gazebo_ur/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/ur_simulation_gazebo -- -j12 -l12
+[0.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/gazebo_ur/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/ur_simulation_gazebo
+[0.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/gazebo_ur/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/trac_ik_lib -- -j12 -l12
+[0.413s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gazebo)
+[0.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/gazebo_ur/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/ur_simulation_gazebo
+[0.416s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo' for CMake module files
+[0.416s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo' for CMake config files
+[0.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gazebo', 'cmake_prefix_path')
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.ps1'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.dsv'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.sh'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo/bin'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo/lib/pkgconfig/ur_simulation_gazebo.pc'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo/lib/python3.10/site-packages'
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo/bin'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv'
+[0.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.sh'
+[0.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.bash'
+[0.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.zsh'
+[0.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/gazebo_ur/install/ur_simulation_gazebo/share/colcon-core/packages/ur_simulation_gazebo)
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/gazebo_ur/build/trac_ik_lib': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/trac_ik_lib
+[0.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gazebo)
+[0.447s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo' for CMake module files
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo' for CMake config files
+[0.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gazebo', 'cmake_prefix_path')
+[0.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.ps1'
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.dsv'
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.sh'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo/bin'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo/lib/pkgconfig/ur_simulation_gazebo.pc'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo/lib/python3.10/site-packages'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/ur_simulation_gazebo/bin'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.ps1'
+[0.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.sh'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.bash'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.zsh'
+[0.455s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/gazebo_ur/install/ur_simulation_gazebo/share/colcon-core/packages/ur_simulation_gazebo)
+[0.456s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_lib)
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib' for CMake module files
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/gazebo_ur/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/trac_ik_lib
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib' for CMake config files
+[0.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'cmake_prefix_path')
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.dsv'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.sh'
+[0.459s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib/lib'
+[0.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'ld_library_path_lib')
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.ps1'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.dsv'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.sh'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib/bin'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib/lib/pkgconfig/trac_ik_lib.pc'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib/lib/python3.10/site-packages'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib/bin'
+[0.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.sh'
+[0.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.bash'
+[0.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.zsh'
+[0.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/gazebo_ur/install/trac_ik_lib/share/colcon-core/packages/trac_ik_lib)
+[0.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_lib)
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib' for CMake module files
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib' for CMake config files
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'cmake_prefix_path')
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.ps1'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.sh'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib/lib'
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'ld_library_path_lib')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.sh'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib/bin'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib/lib/pkgconfig/trac_ik_lib.pc'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib/lib/python3.10/site-packages'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_lib/bin'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.dsv'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.sh'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.bash'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_lib/share/trac_ik_lib/package.zsh'
+[0.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/gazebo_ur/install/trac_ik_lib/share/colcon-core/packages/trac_ik_lib)
+[0.501s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/om/gazebo_ur/src/trac_ik/trac_ik_kinematics_plugin' with build type 'ament_cmake'
+[0.501s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/om/gazebo_ur/src/trac_ik/trac_ik_kinematics_plugin'
+[0.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin': AMENT_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/gazebo_ur/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/om/gazebo_ur/build/trac_ik_kinematics_plugin -- -j12 -l12
+[0.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin' returned '0': AMENT_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/gazebo_ur/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/om/gazebo_ur/build/trac_ik_kinematics_plugin -- -j12 -l12
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin': AMENT_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/gazebo_ur/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/om/gazebo_ur/build/trac_ik_kinematics_plugin
+[0.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_kinematics_plugin)
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin' for CMake module files
+[0.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/gazebo_ur/build/trac_ik_kinematics_plugin' returned '0': AMENT_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/gazebo_ur/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/om/gazebo_ur/build/trac_ik_kinematics_plugin
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin' for CMake config files
+[0.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_kinematics_plugin', 'cmake_prefix_path')
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.ps1'
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.dsv'
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.sh'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib'
+[0.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_kinematics_plugin', 'ld_library_path_lib')
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.ps1'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.dsv'
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.sh'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/bin'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib/pkgconfig/trac_ik_kinematics_plugin.pc'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib/python3.10/site-packages'
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/bin'
+[0.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.ps1'
+[0.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.dsv'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.sh'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.bash'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.zsh'
+[0.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/colcon-core/packages/trac_ik_kinematics_plugin)
+[0.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_kinematics_plugin)
+[0.685s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin' for CMake module files
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin' for CMake config files
+[0.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_kinematics_plugin', 'cmake_prefix_path')
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.ps1'
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.dsv'
+[0.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/cmake_prefix_path.sh'
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib'
+[0.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_kinematics_plugin', 'ld_library_path_lib')
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.ps1'
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.dsv'
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/hook/ld_library_path_lib.sh'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/bin'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib/pkgconfig/trac_ik_kinematics_plugin.pc'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib/python3.10/site-packages'
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/bin'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.ps1'
+[0.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.dsv'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.sh'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.bash'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/trac_ik_kinematics_plugin/package.zsh'
+[0.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/share/colcon-core/packages/trac_ik_kinematics_plugin)
+[0.692s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/om/gazebo_ur/src/trac_ik/trac_ik' with build type 'ament_cmake'
+[0.692s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/om/gazebo_ur/src/trac_ik/trac_ik'
+[0.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/gazebo_ur/build/trac_ik': AMENT_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib:/home/om/gazebo_ur/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/om/gazebo_ur/build/trac_ik -- -j12 -l12
+[0.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/gazebo_ur/build/trac_ik' returned '0': AMENT_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib:/home/om/gazebo_ur/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/om/gazebo_ur/build/trac_ik -- -j12 -l12
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/gazebo_ur/build/trac_ik': AMENT_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib:/home/om/gazebo_ur/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/om/gazebo_ur/build/trac_ik
+[0.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik)
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik' for CMake module files
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/gazebo_ur/build/trac_ik' returned '0': AMENT_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin:/home/om/gazebo_ur/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/gazebo_ur/install/trac_ik_kinematics_plugin/lib:/home/om/gazebo_ur/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/om/gazebo_ur/build/trac_ik
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik' for CMake config files
+[0.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik', 'cmake_prefix_path')
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.ps1'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.sh'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik/bin'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik/lib/pkgconfig/trac_ik.pc'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik/lib/python3.10/site-packages'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik/bin'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.dsv'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.sh'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.bash'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.zsh'
+[0.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/gazebo_ur/install/trac_ik/share/colcon-core/packages/trac_ik)
+[0.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik)
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik' for CMake module files
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik' for CMake config files
+[0.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik', 'cmake_prefix_path')
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.ps1'
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.dsv'
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.sh'
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik/bin'
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik/lib/pkgconfig/trac_ik.pc'
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik/lib/python3.10/site-packages'
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/trac_ik/bin'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.dsv'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.sh'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.bash'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/trac_ik/share/trac_ik/package.zsh'
+[0.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/gazebo_ur/install/trac_ik/share/colcon-core/packages/trac_ik)
+[7.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/gazebo_ur/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/robot_controller -- -j12 -l12
+[7.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/gazebo_ur/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/robot_controller
+[7.341s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controller)
+[7.342s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller' for CMake module files
+[7.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/gazebo_ur/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/robot_controller
+[7.342s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller' for CMake config files
+[7.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'cmake_prefix_path')
+[7.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.ps1'
+[7.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.dsv'
+[7.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.sh'
+[7.344s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller/lib'
+[7.344s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller/bin'
+[7.344s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller/lib/pkgconfig/robot_controller.pc'
+[7.345s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller/lib/python3.10/site-packages'
+[7.345s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller/bin'
+[7.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.ps1'
+[7.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.dsv'
+[7.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.sh'
+[7.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.bash'
+[7.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.zsh'
+[7.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/gazebo_ur/install/robot_controller/share/colcon-core/packages/robot_controller)
+[7.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controller)
+[7.374s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller' for CMake module files
+[7.374s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller' for CMake config files
+[7.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controller', 'cmake_prefix_path')
+[7.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.ps1'
+[7.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.dsv'
+[7.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/hook/cmake_prefix_path.sh'
+[7.376s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller/lib'
+[7.376s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller/bin'
+[7.376s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller/lib/pkgconfig/robot_controller.pc'
+[7.376s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller/lib/python3.10/site-packages'
+[7.376s] Level 1:colcon.colcon_core.environment:checking '/home/om/gazebo_ur/install/robot_controller/bin'
+[7.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.ps1'
+[7.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.dsv'
+[7.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.sh'
+[7.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.bash'
+[7.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.zsh'
+[7.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/gazebo_ur/install/robot_controller/share/colcon-core/packages/robot_controller)
+[7.378s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.379s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.383s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.395s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/gazebo_ur/install/local_setup.ps1'
+[7.396s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/om/gazebo_ur/install/_local_setup_util_ps1.py'
+[7.397s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/gazebo_ur/install/setup.ps1'
+[7.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/gazebo_ur/install/local_setup.sh'
+[7.399s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/om/gazebo_ur/install/_local_setup_util_sh.py'
+[7.399s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/gazebo_ur/install/setup.sh'
+[7.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/gazebo_ur/install/local_setup.bash'
+[7.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/gazebo_ur/install/setup.bash'
+[7.401s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/gazebo_ur/install/local_setup.zsh'
+[7.401s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/gazebo_ur/install/setup.zsh'

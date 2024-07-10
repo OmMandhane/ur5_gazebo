@@ -1,0 +1,57 @@
+[0.013s] Invoking command in '/home/om/gazebo_ur/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/ur_description -- -j12 -l12
+[0.032s] -- Configuring done
+[0.033s] -- Generating done
+[0.034s] -- Build files have been written to: /home/om/gazebo_ur/build/ur_description
+[0.055s] Invoked command in '/home/om/gazebo_ur/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/ur_description -- -j12 -l12
+[0.083s] Invoking command in '/home/om/gazebo_ur/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/ur_description
+[0.090s] -- Install configuration: ""
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur16e
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur10e
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[0.091s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[0.092s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur3
+[0.092s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[0.092s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[0.092s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[0.092s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[0.092s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur30
+[0.092s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[0.092s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[0.092s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[0.093s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[0.093s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur5e
+[0.093s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[0.093s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[0.093s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[0.093s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[0.093s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur5
+[0.093s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[0.094s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[0.094s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[0.094s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[0.094s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/initial_positions.yaml
+[0.094s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur20
+[0.094s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[0.094s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[0.094s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[0.095s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[0.095s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur10
+[0.096s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[0.096s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[0.097s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[0.097s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[0.097s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur3e
+[0.097s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[0.098s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[0.098s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[0.098s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[0.098s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/launch
+[0.099s] -- Installing: /home/om/gazebo_ur/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[0.099s] Invoked command in '/home/om/gazebo_ur/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/ur_description

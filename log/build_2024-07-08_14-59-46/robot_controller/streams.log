@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/om/gazebo_ur/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/robot_controller -- -j12 -l12
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target move_robot[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot.dir/src/move_robot.cpp.o[0m
+[6.295s] [100%] [32m[1mLinking CXX executable move_robot[0m
+[6.567s] [100%] Built target move_robot
+[6.579s] Invoked command in '/home/om/gazebo_ur/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/robot_controller -- -j12 -l12
+[6.611s] Invoking command in '/home/om/gazebo_ur/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/robot_controller
+[6.620s] -- Install configuration: ""
+[6.620s] -- Installing: /home/om/gazebo_ur/install/robot_controller/lib/robot_controller/move_robot
+[6.621s] -- Set runtime path of "/home/om/gazebo_ur/install/robot_controller/lib/robot_controller/move_robot" to ""
+[6.621s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/environment/path.sh
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/environment/path.dsv
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/local_setup.bash
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/local_setup.sh
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/local_setup.zsh
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/local_setup.dsv
+[6.622s] -- Installing: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.dsv
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[6.622s] -- Up-to-date: /home/om/gazebo_ur/install/robot_controller/share/robot_controller/package.xml
+[6.625s] Invoked command in '/home/om/gazebo_ur/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/om/gazebo_ur/build/robot_controller

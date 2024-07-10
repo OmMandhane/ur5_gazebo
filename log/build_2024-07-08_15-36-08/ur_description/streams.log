@@ -1,0 +1,8 @@
+[0.012s] Invoking command in '/home/om/gazebo_ur/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/gazebo_ur/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/om/gazebo_ur/install/ur_description
+[0.020s] [31mCMake Error at CMakeLists.txt:1:
+[0.020s]   Parse error.  Expected "(", got unquoted argument with text
+[0.020s]   "'cmake_minimum_required".
+[0.020s] 
+[0.020s] [0m
+[0.020s] -- Configuring incomplete, errors occurred!
+[0.022s] Invoked command in '/home/om/gazebo_ur/build/ur_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/gazebo_ur/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/om/gazebo_ur/install/ur_description

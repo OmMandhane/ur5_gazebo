@@ -1,0 +1,2 @@
+Invoking command in '/home/om/gazebo_ur/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/gazebo_ur/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/om/gazebo_ur/install/ur_description
+Invoked command in '/home/om/gazebo_ur/build/ur_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/om/gazebo_ur/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/om/gazebo_ur/install/ur_description
