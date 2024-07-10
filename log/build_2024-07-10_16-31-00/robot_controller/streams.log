@@ -1,0 +1,40 @@
+[0.014s] Invoking command in '/home/om/gazebo_ur/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/gazebo_ur/install/robot_controller_py:/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/robot_controller -- -j12 -l12
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target move_robot[0m
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot.dir/src/move_robot.cpp.o[0m
+[4.174s] [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:[m[K In constructor ‘[01m[KTestTrajectory::TestTrajectory(std::shared_ptr<rclcpp::Node>)[m[K’:
+[4.174s] [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:24:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::getInterfaceDescription()[m[K’
+[4.174s]    24 |     while (![01;31m[Kmove_group_arm.getInterfaceDescription()[m[K && rclcpp::ok()) {
+[4.174s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.174s] In file included from [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:1[m[K:
+[4.174s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:203:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::getInterfaceDescription(moveit_msgs::msg::PlannerInterfaceDescription&) const[m[K’
+[4.174s]   203 |   bool [01;36m[KgetInterfaceDescription[m[K(moveit_msgs::msg::PlannerInterfaceDescription& desc) const;
+[4.175s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.175s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:203:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[4.190s] [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:[m[K In member function ‘[01m[Kvoid TestTrajectory::plan_arm_joint_space()[m[K’:
+[4.190s] [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:68:70:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.190s]    68 |                  moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[4.190s]       |                                                               [01;35m[K^~~~~~~[m[K
+[4.191s] 
+[4.191s] In file included from [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:1[m[K:
+[4.191s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.191s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[4.191s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.191s] [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:74:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.191s]    74 |     moveit::planning_interface::MoveItErrorCode [01;35m[Kexecute_result[m[K = move_group_arm.execute(my_plan_arm);
+[4.191s]       |                                                 [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.191s] In file included from [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:1[m[K:
+[4.191s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.192s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[4.192s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.192s] [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:75:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.192s]    75 | ecute_result != moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K) {
+[4.192s]       |                                                              [01;35m[K^~~~~~~[m[K
+[4.192s] 
+[4.192s] In file included from [01m[K/home/om/gazebo_ur/src/robot_controller/src/move_robot.cpp:1[m[K:
+[4.192s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.192s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[4.192s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[7.636s] gmake[2]: *** [CMakeFiles/move_robot.dir/build.make:76: CMakeFiles/move_robot.dir/src/move_robot.cpp.o] Error 1
+[7.636s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_robot.dir/all] Error 2
+[7.637s] gmake: *** [Makefile:146: all] Error 2
+[7.641s] Invoked command in '/home/om/gazebo_ur/build/robot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/gazebo_ur/install/robot_controller_py:/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/robot_controller -- -j12 -l12

@@ -1,1 +1,1 @@
-rclcpp;moveit_core;moveit_ros_planning;moveit_ros_planning_interface;interactive_markers;control_msgs;ament_lint_auto;ament_lint_common
+sensor_msgs;rclcpp;moveit_core;moveit_ros_planning;moveit_ros_planning_interface;interactive_markers;control_msgs;ament_lint_auto;ament_lint_common

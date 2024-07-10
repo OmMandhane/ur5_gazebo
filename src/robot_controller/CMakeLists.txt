@@ -6,6 +6,7 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 find_package(ament_cmake REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(moveit_core REQUIRED)
 find_package(moveit_ros_planning REQUIRED)
@@ -19,6 +20,7 @@ add_executable(move_robot src/move_robot.cpp)
 target_include_directories(move_robot PUBLIC include)
 ament_target_dependencies(move_robot
   ament_cmake
+  sensor_msgs
   rclcpp
   rclcpp_action
   moveit_core
