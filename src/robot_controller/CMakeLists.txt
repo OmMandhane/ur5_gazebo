@@ -27,10 +27,22 @@ ament_target_dependencies(move_robot
   moveit_ros_planning_interface
   interactive_markers
   moveit_ros_planning
-  control_msgs) # Ensure control_msgs is included
+  control_msgs) 
 
+add_executable(move_robot_targetpose src/move_robot_targetpose.cpp)
+target_include_directories(move_robot_targetpose PUBLIC include)
+ament_target_dependencies(move_robot_targetpose
+  ament_cmake
+  sensor_msgs
+  rclcpp
+  rclcpp_action
+  moveit_core
+  moveit_ros_planning_interface
+  interactive_markers
+  moveit_ros_planning
+  control_msgs) 
 # Install the executable
-install(TARGETS move_robot
+install(TARGETS move_robot move_robot_targetpose
   DESTINATION lib/${PROJECT_NAME})
 
 # Install the launch file

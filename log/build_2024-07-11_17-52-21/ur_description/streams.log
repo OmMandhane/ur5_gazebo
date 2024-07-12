@@ -1,0 +1,2 @@
+[0.013s] Invoking command in '/home/om/gazebo_ur/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/gazebo_ur/install/robot_controller_py:/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/ur_description -- -j12 -l12
+[0.053s] Invoked command in '/home/om/gazebo_ur/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/gazebo_ur/install/robot_controller_py:/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/ur_description -- -j12 -l12

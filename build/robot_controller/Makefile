@@ -210,6 +210,19 @@ move_robot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot.dir/build.make CMakeFiles/move_robot.dir/build
 .PHONY : move_robot/fast
 
+#=============================================================================
+# Target rules for targets named move_robot_targetpose
+
+# Build rule for target.
+move_robot_targetpose: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_robot_targetpose
+.PHONY : move_robot_targetpose
+
+# fast build rule for target.
+move_robot_targetpose/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_targetpose.dir/build.make CMakeFiles/move_robot_targetpose.dir/build
+.PHONY : move_robot_targetpose/fast
+
 src/move_robot.o: src/move_robot.cpp.o
 .PHONY : src/move_robot.o
 
@@ -234,6 +247,30 @@ src/move_robot.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot.dir/build.make CMakeFiles/move_robot.dir/src/move_robot.cpp.s
 .PHONY : src/move_robot.cpp.s
 
+src/move_robot_targetpose.o: src/move_robot_targetpose.cpp.o
+.PHONY : src/move_robot_targetpose.o
+
+# target to build an object file
+src/move_robot_targetpose.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_targetpose.dir/build.make CMakeFiles/move_robot_targetpose.dir/src/move_robot_targetpose.cpp.o
+.PHONY : src/move_robot_targetpose.cpp.o
+
+src/move_robot_targetpose.i: src/move_robot_targetpose.cpp.i
+.PHONY : src/move_robot_targetpose.i
+
+# target to preprocess a source file
+src/move_robot_targetpose.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_targetpose.dir/build.make CMakeFiles/move_robot_targetpose.dir/src/move_robot_targetpose.cpp.i
+.PHONY : src/move_robot_targetpose.cpp.i
+
+src/move_robot_targetpose.s: src/move_robot_targetpose.cpp.s
+.PHONY : src/move_robot_targetpose.s
+
+# target to generate assembly for a file
+src/move_robot_targetpose.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_targetpose.dir/build.make CMakeFiles/move_robot_targetpose.dir/src/move_robot_targetpose.cpp.s
+.PHONY : src/move_robot_targetpose.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... robot_controller_uninstall"
 	@echo "... uninstall"
 	@echo "... move_robot"
+	@echo "... move_robot_targetpose"
 	@echo "... src/move_robot.o"
 	@echo "... src/move_robot.i"
 	@echo "... src/move_robot.s"
+	@echo "... src/move_robot_targetpose.o"
+	@echo "... src/move_robot_targetpose.i"
+	@echo "... src/move_robot_targetpose.s"
 .PHONY : help
 
 

@@ -1,4 +1,6 @@
 /home/om/gazebo_ur/install/robot_controller/lib/robot_controller/move_robot
+/home/om/gazebo_ur/install/robot_controller/lib/robot_controller/move_robot_targetpose
+/home/om/gazebo_ur/install/robot_controller/share/robot_controller/launch/move_robot_targetpose.launch.py
 /home/om/gazebo_ur/install/robot_controller/share/robot_controller/launch/move_robot.launch.py
 /home/om/gazebo_ur/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
 /home/om/gazebo_ur/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
