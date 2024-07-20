@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/om/gazebo_ur/src/trac_ik/trac_ik_lib
+CMAKE_SOURCE_DIR = /home/om/ur5_gazebo/src/trac_ik/trac_ik_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/om/gazebo_ur/build/trac_ik_lib
+CMAKE_BINARY_DIR = /home/om/ur5_gazebo/build/trac_ik_lib
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/om/gazebo_ur/build/trac_ik_lib && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/gazebo_ur/src/trac_ik/trac_ik_lib /home/om/gazebo_ur/src/trac_ik/trac_ik_lib /home/om/gazebo_ur/build/trac_ik_lib /home/om/gazebo_ur/build/trac_ik_lib /home/om/gazebo_ur/build/trac_ik_lib/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/om/ur5_gazebo/build/trac_ik_lib && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/ur5_gazebo/src/trac_ik/trac_ik_lib /home/om/ur5_gazebo/src/trac_ik/trac_ik_lib /home/om/ur5_gazebo/build/trac_ik_lib /home/om/ur5_gazebo/build/trac_ik_lib /home/om/ur5_gazebo/build/trac_ik_lib/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

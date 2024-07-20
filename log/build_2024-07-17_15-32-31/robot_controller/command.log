@@ -1,0 +1,6 @@
+Invoking command in '/home/om/ur5_gazebo/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/om/ur5_gazebo/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/om/ur5_gazebo/install/robot_controller
+Invoked command in '/home/om/ur5_gazebo/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/om/ur5_gazebo/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/om/ur5_gazebo/install/robot_controller
+Invoking command in '/home/om/ur5_gazebo/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/ur5_gazebo/build/robot_controller -- -j8 -l8
+Invoked command in '/home/om/ur5_gazebo/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/ur5_gazebo/build/robot_controller -- -j8 -l8
+Invoking command in '/home/om/ur5_gazebo/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/ur5_gazebo/build/robot_controller
+Invoked command in '/home/om/ur5_gazebo/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/ur5_gazebo/build/robot_controller

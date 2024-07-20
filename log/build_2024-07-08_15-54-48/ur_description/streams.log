@@ -1,5 +1,0 @@
-[0.012s] Invoking command in '/home/om/gazebo_ur/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/ur_description -- -j12 -l12
-[0.033s] -- Configuring done
-[0.034s] -- Generating done
-[0.034s] -- Build files have been written to: /home/om/gazebo_ur/build/ur_description
-[0.054s] Invoked command in '/home/om/gazebo_ur/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/om/gazebo_ur/build/ur_description -- -j12 -l12
