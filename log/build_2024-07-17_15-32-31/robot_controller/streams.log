@@ -1,0 +1,144 @@
+[0.016s] Invoking command in '/home/om/ur5_gazebo/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/om/ur5_gazebo/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/om/ur5_gazebo/install/robot_controller
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.238s] -- Detecting C compile features
+[0.239s] -- Detecting C compile features - done
+[0.242s] -- Detecting CXX compiler ABI info
+[0.332s] -- Detecting CXX compiler ABI info - done
+[0.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.345s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.511s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.608s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.648s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.655s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.665s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.706s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.983s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.057s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.060s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.186s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.218s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.286s] -- Looking for pthread.h
+[1.365s] -- Looking for pthread.h - found
+[1.365s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.445s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.446s] -- Found Threads: TRUE  
+[1.611s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[1.647s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.662s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.689s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.750s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.866s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.149s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.150s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.643s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[3.650s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.222s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[4.228s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[4.484s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.806s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.369s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[5.385s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[5.675s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.768s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.769s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.769s] -- Configured cppcheck include dirs: /home/om/ur5_gazebo/src/robot_controller/include
+[5.769s] -- Configured cppcheck exclude dirs and/or files: 
+[5.770s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.770s] -- Configured cpplint exclude dirs and/or files: 
+[5.771s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.771s] -- Added test 'lint_cmake' to check CMake code style
+[5.772s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.773s] -- Added test 'uncrustify' to check C / C++ code style
+[5.773s] -- Configured uncrustify additional arguments: 
+[5.774s] -- Added test 'xmllint' to check XML markup files
+[5.775s] -- Configuring done
+[5.822s] -- Generating done
+[5.825s] -- Build files have been written to: /home/om/ur5_gazebo/build/robot_controller
+[5.844s] Invoked command in '/home/om/ur5_gazebo/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/om/ur5_gazebo/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/om/ur5_gazebo/install/robot_controller
+[5.845s] Invoking command in '/home/om/ur5_gazebo/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/ur5_gazebo/build/robot_controller -- -j8 -l8
+[5.905s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot.dir/src/move_robot.cpp.o[0m
+[5.905s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot_targetpose.dir/src/move_robot_targetpose.cpp.o[0m
+[11.179s] [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot.cpp:[m[K In member function ‘[01m[Kvoid TestTrajectory::plan_arm_joint_space()[m[K’:
+[11.179s] [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot.cpp:63:70:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.179s]    63 |                  moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[11.179s]       |                                                               [01;35m[K^~~~~~~[m[K
+[11.179s] 
+[11.179s] In file included from [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot.cpp:1[m[K:
+[11.179s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.179s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[11.179s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.179s] [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot.cpp:69:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.180s]    69 |     moveit::planning_interface::MoveItErrorCode [01;35m[Kexecute_result[m[K = move_group_arm.execute(my_plan_arm);
+[11.180s]       |                                                 [01;35m[K^~~~~~~~~~~~~~[m[K
+[11.180s] In file included from [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot.cpp:1[m[K:
+[11.180s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.180s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[11.180s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.180s] [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot.cpp:70:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.180s]    70 | ecute_result != moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K) {
+[11.180s]       |                                                              [01;35m[K^~~~~~~[m[K
+[11.180s] 
+[11.180s] In file included from [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot.cpp:1[m[K:
+[11.181s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.181s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[11.181s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.230s] [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot_targetpose.cpp:[m[K In member function ‘[01m[Kvoid TestTrajectory::plan_arm_target_pose()[m[K’:
+[11.231s] [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot_targetpose.cpp:76:106:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.231s]    76 |     bool success_arm = (move_group_arm.plan(my_plan_arm) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[11.231s]       |                                                                                                          [01;35m[K^~~~~~~[m[K
+[11.231s] In file included from [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot_targetpose.cpp:1[m[K:
+[11.231s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.231s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[11.231s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.231s] [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot_targetpose.cpp:83:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.231s]    83 |     moveit::planning_interface::MoveItErrorCode [01;35m[Kexecute_result[m[K = move_group_arm.execute(my_plan_arm);
+[11.231s]       |                                                 [01;35m[K^~~~~~~~~~~~~~[m[K
+[11.231s] In file included from [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot_targetpose.cpp:1[m[K:
+[11.231s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.232s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[11.232s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.232s] [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot_targetpose.cpp:84:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.232s]    84 |     if (execute_result != moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K) {
+[11.232s]       |                                                                        [01;35m[K^~~~~~~[m[K
+[11.232s] In file included from [01m[K/home/om/ur5_gazebo/src/robot_controller/src/move_robot_targetpose.cpp:1[m[K:
+[11.232s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.232s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[11.232s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[18.148s] [ 75%] [32m[1mLinking CXX executable move_robot[0m
+[18.343s] [100%] [32m[1mLinking CXX executable move_robot_targetpose[0m
+[19.302s] [100%] Built target move_robot
+[19.382s] [100%] Built target move_robot_targetpose
+[19.393s] Invoked command in '/home/om/ur5_gazebo/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/ur5_gazebo/build/robot_controller -- -j8 -l8
+[19.420s] Invoking command in '/home/om/ur5_gazebo/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/ur5_gazebo/build/robot_controller
+[19.427s] -- Install configuration: ""
+[19.427s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/lib/robot_controller/move_robot
+[19.430s] -- Set runtime path of "/home/om/ur5_gazebo/install/robot_controller/lib/robot_controller/move_robot" to ""
+[19.430s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/lib/robot_controller/move_robot_targetpose
+[19.433s] -- Set runtime path of "/home/om/ur5_gazebo/install/robot_controller/lib/robot_controller/move_robot_targetpose" to ""
+[19.433s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/launch
+[19.434s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/launch/move_robot.launch.py
+[19.434s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/launch/move_robot_targetpose.launch.py
+[19.434s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[19.434s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[19.434s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[19.434s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/environment/path.sh
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/environment/path.dsv
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/local_setup.bash
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/local_setup.sh
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/local_setup.zsh
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/local_setup.dsv
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/package.dsv
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[19.435s] -- Installing: /home/om/ur5_gazebo/install/robot_controller/share/robot_controller/package.xml
+[19.438s] Invoked command in '/home/om/ur5_gazebo/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/ur5_gazebo/build/robot_controller

@@ -1,0 +1,54 @@
+[0.013s] Invoking command in '/home/om/ur5_gazebo/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/om/ur5_gazebo/install/ur_moveit_config:/home/om/ur5_gazebo/install/trac_ik_kinematics_plugin:/home/om/ur5_gazebo/install/ur_description:/home/om/ur5_gazebo/install/trac_ik_lib:/home/om/ur5_gazebo/install/ur_simulation_gazebo:/home/om/ur5_gazebo/install/trac_ik:/home/om/ur5_gazebo/install/robot_controller:/opt/ros/humble /usr/bin/cmake /home/om/ur5_gazebo/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DCMAKE_INSTALL_PREFIX=/home/om/ur5_gazebo/install/ur_simulation_gazebo
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.394s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.474s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.478s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.494s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.506s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.506s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.506s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.506s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.523s] -- Found PythonExtra: .so  
+[0.525s] -- Found ament_cmake_pytest: 1.3.9 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.578s] -- Configuring done
+[0.579s] -- Generating done
+[0.580s] -- Build files have been written to: /home/om/ur5_gazebo/build/ur_simulation_gazebo
+[0.585s] Invoked command in '/home/om/ur5_gazebo/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/om/ur5_gazebo/install/ur_moveit_config:/home/om/ur5_gazebo/install/trac_ik_kinematics_plugin:/home/om/ur5_gazebo/install/ur_description:/home/om/ur5_gazebo/install/trac_ik_lib:/home/om/ur5_gazebo/install/ur_simulation_gazebo:/home/om/ur5_gazebo/install/trac_ik:/home/om/ur5_gazebo/install/robot_controller:/opt/ros/humble /usr/bin/cmake /home/om/ur5_gazebo/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DCMAKE_INSTALL_PREFIX=/home/om/ur5_gazebo/install/ur_simulation_gazebo
+[0.586s] Invoking command in '/home/om/ur5_gazebo/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/om/ur5_gazebo/install/ur_moveit_config:/home/om/ur5_gazebo/install/trac_ik_kinematics_plugin:/home/om/ur5_gazebo/install/ur_description:/home/om/ur5_gazebo/install/trac_ik_lib:/home/om/ur5_gazebo/install/ur_simulation_gazebo:/home/om/ur5_gazebo/install/trac_ik:/home/om/ur5_gazebo/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/om/ur5_gazebo/build/ur_simulation_gazebo -- -j8 -l8
+[0.621s] Invoked command in '/home/om/ur5_gazebo/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/om/ur5_gazebo/install/ur_moveit_config:/home/om/ur5_gazebo/install/trac_ik_kinematics_plugin:/home/om/ur5_gazebo/install/ur_description:/home/om/ur5_gazebo/install/trac_ik_lib:/home/om/ur5_gazebo/install/ur_simulation_gazebo:/home/om/ur5_gazebo/install/trac_ik:/home/om/ur5_gazebo/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/om/ur5_gazebo/build/ur_simulation_gazebo -- -j8 -l8
+[0.645s] Invoking command in '/home/om/ur5_gazebo/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/om/ur5_gazebo/install/ur_moveit_config:/home/om/ur5_gazebo/install/trac_ik_kinematics_plugin:/home/om/ur5_gazebo/install/ur_description:/home/om/ur5_gazebo/install/trac_ik_lib:/home/om/ur5_gazebo/install/ur_simulation_gazebo:/home/om/ur5_gazebo/install/trac_ik:/home/om/ur5_gazebo/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/om/ur5_gazebo/build/ur_simulation_gazebo
+[0.651s] -- Install configuration: ""
+[0.651s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config
+[0.651s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+[0.651s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch
+[0.652s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py
+[0.652s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py
+[0.652s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.txt
+[0.653s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gazebo
+[0.653s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gazebo
+[0.653s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.sh
+[0.653s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.dsv
+[0.653s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.sh
+[0.654s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.dsv
+[0.654s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.bash
+[0.654s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.sh
+[0.654s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.zsh
+[0.654s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.dsv
+[0.654s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv
+[0.655s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ament_index/resource_index/packages/ur_simulation_gazebo
+[0.655s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig.cmake
+[0.655s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig-version.cmake
+[0.655s] -- Installing: /home/om/ur5_gazebo/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.xml
+[0.658s] Invoked command in '/home/om/ur5_gazebo/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/om/ur5_gazebo/install/ur_moveit_config:/home/om/ur5_gazebo/install/trac_ik_kinematics_plugin:/home/om/ur5_gazebo/install/ur_description:/home/om/ur5_gazebo/install/trac_ik_lib:/home/om/ur5_gazebo/install/ur_simulation_gazebo:/home/om/ur5_gazebo/install/trac_ik:/home/om/ur5_gazebo/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/om/ur5_gazebo/build/ur_simulation_gazebo

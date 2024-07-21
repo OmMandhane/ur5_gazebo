@@ -83,5 +83,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/om/ur5_gazebo/src/robot_controller"
 }
