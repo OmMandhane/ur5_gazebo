@@ -27,7 +27,7 @@ This repo has a MoveIt planner to control UR5 robot in Gazebo simulation using t
 ## Usage:
   1. Launch the RViz Gazebo and MoveIt using command -
      ```
-     "ros2 launch ur_simulation_gazebo ur_sim_moveit.launch.py"
+     ros2 launch ur_simulation_gazebo ur_sim_moveit.launch.py
      ```
      
   2. You can now move the end effector to desired coordinate and orientation by adding the coordinate and quaternion angle for orientation. Below is the          sample command -
