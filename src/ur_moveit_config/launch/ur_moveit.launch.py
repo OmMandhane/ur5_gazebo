@@ -33,14 +33,29 @@ import os
 
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
-from ur_moveit_config.launch_common import load_yaml
+import yaml
 
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, OpaqueFunction
 from launch.conditions import IfCondition
 from launch.substitutions import Command, FindExecutable, LaunchConfiguration, PathJoinSubstitution
 
+def load_yaml(package_name, file_path):
+    package_path = get_package_share_directory(package_name)
+    absolute_file_path = os.path.join(package_path, file_path)
 
+    try:
+        yaml.SafeLoader.add_constructor("!radians", construct_angle_radians)
+        yaml.SafeLoader.add_constructor("!degrees", construct_angle_degrees)
+    except Exception:
+        raise Exception("yaml support not available; install python-yaml")
+
+    try:
+        with open(absolute_file_path) as file:
+            return yaml.safe_load(file)
+    except OSError:  # parent of IOError, OSError *and* WindowsError where available
+        return None
+        
 def launch_setup(context, *args, **kwargs):
 
     # Initialize Arguments
